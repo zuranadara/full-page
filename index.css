@@ -1,0 +1,105 @@
+
+.black-color{
+    color:red;
+    font-size: large;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Fonts */
+
+h1{
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+    color: white;
+}
+
+h3 {
+    color: #F3DE6D;
+    font-size: 40px;
+}
+
+h4{
+    color: white;
+    height: 32px;
+    font-size: 0.5cm;
+    margin-top: 15px;
+
+
+}
+
+h5 {
+    color:white;
+    font-size: 18px;
+}
+/* degree */
+#div {
+    height: 50px;
+    width: 50px;
+    rotate: -8deg;
+  }
+
+  .grid-contaainer{
+    display: grid;
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 15px;
+  }
+
+  .transition-div{
+    width: 50px;
+    height: 0px;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    transition: width 10s;
+    transition-delay: 3s;
+    transition-duration: 2s;
+  }
+  
+  .transition-div:hover{
+    width: 500px;
+    height: 200px;
+  }
+
+  unvisited link
+  a:link {
+    color: #0800ff;
+  }
+  
+  visited link
+  a:visited {
+    color: rgb(0, 255, 34);
+  }
+  
+  mouse over link
+  a:hover {
+    color: #0091ff;
+  }
+  
+  selected link
+  a:active {
+    color: #ff0000;
+  }
+  
+  .parent:nth-child(3){
+    border: 2px solid blue;
+    background-color: #0000FF;
+  }
+  .click-me {
+  background-color:blue;
+  border: 1px;
+  width: 400px;
+  height: 70px;
+  }
+  
+  .click-me:hover{
+  background-color: rgb(124, 124, 252);
+  
+  }
+  
