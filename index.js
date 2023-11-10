@@ -1,14 +1,17 @@
-const newPrise = 50
-const oldPrice = 80
-const sale = ((newPrise-oldPrice)/oldPrice*100)
-console.log('fasdakleba aris = ', sale);
 
 
-const car = {
-    maxSpeed: 200,
-    color: 'silver',
-    doorAmount: 4
+
+
+const a = 10
+const b = 20
+const c = 30
+
+const discriminant = b**2-(4*a*c)
+
+if(discriminant > 0){
+    console.log('d metia 0-ze')
+} else if (discriminant < 0){
+    console.log('d naklebia 0-ze')
+}else {
+    console.log('d tolia 0-ze')
 }
-
-console.log('maqsimaluri sichkare aris:', car.maxSpeed, 'feri aris:', car.color, 'karebebis raodenoba aris:', car.doorAmount)
-
