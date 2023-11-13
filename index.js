@@ -1,17 +1,41 @@
+const age =33; 
 
-
-
-
-const a = 10
-const b = 20
-const c = 30
-
-const discriminant = b**2-(4*a*c)
-
-if(discriminant > 0){
-    console.log('d metia 0-ze')
-} else if (discriminant < 0){
-    console.log('d naklebia 0-ze')
-}else {
-    console.log('d tolia 0-ze')
+        if (age >= 25) {
+    console.log("მომხმარებლის ასაკი 25_ზე მეტია");
+}       else {
+    console.log("მომხმარებლის ასაკი 25_ზე ნაკლებია");
 }
+
+
+
+
+
+ 
+const weekDay = 12;
+   
+switch (weekDay) {
+        case 1:
+    console.log("Sunday")
+    break;
+        case 2:
+    console.log("Monday")
+    break;
+        case 3:
+    console.log("Tuesday")
+    break;
+        case 4:
+    console.log("Wednesday")
+    break;
+        case 5:
+    console.log("Thursday")
+    break;
+        case 6:
+    console.log("Friday")
+    break;
+        case 7:
+    console.log("Saturday")
+    break;
+                default:
+            console.log("Your week day is not correct");
+}
+
