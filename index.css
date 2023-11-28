@@ -557,3 +557,16 @@ i{
   font-size: larger;
   margin-top: 10px;
 }
+
+
+
+
+
+.divform {
+  border: 1px solid red;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 800px;
+}
